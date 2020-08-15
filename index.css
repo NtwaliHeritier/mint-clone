@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica;
+    color: #393a3d;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* Navbar*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+    margin-top: 10px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+.in {
+    color: #3da6a4;
+    background-color: white;
+}
+
+.sign-in {
+    border: 2px solid #3da6a4;
+    margin-left: 10px;
+}
+
+.up {
+    color: white;
+    background-color: #ff8205;
+}
+
+
+button {
+    width: 90px;
+    height: 30px;
+    font-size: 15px;
+    border: none;
+    border-radius: 7px;
+}
+
+nav img {
+    margin-left: 80px;
+    cursor: pointer;
+}
+
+.nav-btns {
+    margin-right: 80px;
+}
+
+.nav-anchors a {
+    padding: 10px;
+    text-decoration: none;
+    color: darkgray;
+    font-size: 18px;
+}
+
+.nav-anchors {
+    margin-left: 20px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+/* Landing*/
+.landing {
+    height: calc(100vh - 65px);
+    background-image: linear-gradient(to bottom, #f9fafc, #fdfdfe);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.landing-description button {
+    width: 10em;
+    height: 3em;
+    font-size: 20px;
+}
+
+.landing-description {
+    margin-left: 7em;
+    width: 35%;
+}
+
+.landing-description p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 1.2em;
+}
+
+.landing-description h1 {
+    font-size: 50px;
+}
+
+.landing img {
+    height: calc(100vh - 65px);
+    margin-left: 30px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    margin: 20px 60px;
+}
+
+.card {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    text-align: center;
+    margin: 30px 10px;
+    padding: 20px;
+    border-top: 8px solid #3da6a4;
+    width: 30%;
+}
+
+.card p {
+    margin: 30px 10px;
+    line-height: 20px;
+}
+
+.card h1 {
+    font-weight: bold;
+}
+
+.landing-icon {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.landing-icon span{
+    margin-left: 5px;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.classes {
+    text-align: left;
+}
+
+.headings {
+    text-align: center;
+    width: 75%;
+    margin: 40px auto;
+}
+
+.headings h1{
+    margin-bottom: 30px;
+}
+
+.headings p {
+    line-height: 23px;
+    margin-bottom: 20px;
+}
+
+.headings a {
+    text-decoration: none;
+}
+
+.headings a:hover {
+    text-decoration: underline;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex img {
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex p {
+    margin-top: 10px;
+}
+
+.contacts {
+    text-align: center;
+}
+
+.contacts h1 {
+    font-weight: bolder;
+    margin: 25px;
+    font-size: 28px;
+}
+
+.contacts p {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.contact-btns {
+    margin-top: 25px;
+}
+
+.contact-btns button {
+    width: 10em;
+    height: 3em;
+    padding: 10px 5px;
+    font-size: 20px;
+}
+
+.download-section {
+    margin-top: 25px;
+    background-color: #393a3d;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.download-section p {
+    margin: 20px;
+}
+
+.btn button {
+    margin-right: 15px;
+    color: white;
+    border: 2px solid white;
+    background-color: #393a3d;
+}
+
+.fa-apple {
+    font-size: 25px;
+}
+
+footer li {
+    list-style: none;
+    margin: 10px;
+}
+
+li a{
+    text-decoration: none;
+    color: #393a3d;
+}
+
+.footer-navs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+footer h3 {
+    margin-bottom: 10px;
+}
+
+
+footer {
+    background-color: #f4f5f8;
+    padding: 40px;
+    bottom: 0;
+}
+
+.footer-logos {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.footer-logos i {
+    cursor: pointer;
+    margin-right: 20px;    
+    font-size: 20px;
+}
