@@ -437,3 +437,125 @@ footer {
         display: none;
     }
 }
+
+@media screen and (max-width: 375px) {
+    nav img {
+        margin-left: 10px;
+        cursor: pointer;
+    }
+
+    .nav-btns {
+        margin-right: 10px;
+    }
+
+    .nav-anchors {
+        display: none;
+    }
+
+    .landing {
+        flex-direction: column;  
+        height: calc(80vh - 65px); 
+        position: relative;
+        margin-bottom: 8%;
+       }
+
+    .landing-description {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .landing-description h1 {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .landing-description p {
+        text-align: center;
+        width: 100%;
+    }
+
+    .landing img {
+        width: 100%;
+        height: 50vh;
+    }
+
+    .flex img {
+        width: 80%;
+    }
+
+    #btn {
+        width: 95%;
+        height: 3em;
+        font-size: 20px;
+        position: absolute;
+        bottom: 2%;
+        left: 2%;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    #landing-improved {
+        display: block;
+        height: 120vh;
+        position: relative;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+
+    #landing-improved img {
+        height: 55vh;
+        position: absolute;
+        top: 10vh;
+        width: 98%;
+        margin-left: -2%;
+    }
+
+    #landing-improved p {
+        margin-top: 60vh;
+    }
+
+    #landing-improved h1 {
+        text-align: left;
+    }
+
+    .contact-btns button {
+        display: block;
+        width: 98%;
+        margin: 1% auto;
+    }
+
+    .footer-navs {
+        flex-direction: column;
+    }
+
+    .footer-navs h3 {
+        border-bottom: 1px solid lightgray;
+    }
+
+    .footer-navs ul {
+        display: none;
+    }
+
+    .footer-logos {
+        flex-direction: column;
+    }
+
+    .footer-logos div {
+        border-top: 1px solid lightgray;
+        border-bottom: 1px solid lightgray;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+    }
+
+    hr {
+        display: none;
+    }
+}
