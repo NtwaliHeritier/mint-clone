@@ -7,6 +7,7 @@
 body {
     font-family: Helvetica;
     color: #393a3d;
+    max-width: 100vw;
 }
 
 button {
@@ -107,7 +108,6 @@ nav img {
 
 .landing img {
     height: calc(100vh - 65px);
-    margin-left: 30px;
 }
 
 .cards {
@@ -277,4 +277,35 @@ footer {
     cursor: pointer;
     margin-right: 20px;    
     font-size: 20px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1120px) {
+
+    body {
+        max-width: 100%;
+    }
+
+    .nav-anchors {
+        display: none;
+    }
+
+    nav {
+        margin: 0;
+    }
+
+    .nav-links {
+        justify-self: flex-start;
+    }
+
+    .landing-description {
+        width: 60%;
+    }
+
+    .landing img {
+        width: 40%;
+    }
+
+    .flex img {
+        width: 80%;
+    }
 }
