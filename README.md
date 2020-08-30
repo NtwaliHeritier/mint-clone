@@ -31,7 +31,7 @@ Additional description about the project and its features.
 
 ## Live Link
 
-https://raw.githack.com/NtwaliHeritier/mint-clone/features/index.html
+https://mint-clone.netlify.app/
 
 ## Show your support
 
